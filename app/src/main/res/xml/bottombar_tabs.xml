@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_place"
+        icon="@drawable/place"
+        textColor="#FFFFFF"
+        title="Place Famous"
+        />
+    <tab
+        id="@+id/tab_favorite"
+        icon="@drawable/heart"
+        textColor="#FFFFFF"
+        title="Favorite"
+        />
+    <tab
+        id="@+id/tab_map"
+        icon="@drawable/map"
+        title="Map"
+        />
+
+    <tab id="@+id/tab_setting"
+         icon="@drawable/settings"
+         title="Settings">
+
+    </tab>
+
+    <tab
+        id="@+id/tab_about"
+        icon="@drawable/info"
+        textColor="#FFFFFF"
+        title="About"
+        />
+
+    <!-- You can use @color resources too! -->
+</tabs>

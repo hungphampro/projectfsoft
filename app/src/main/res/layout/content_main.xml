@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.root.projectfsoft.MainActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:weightSum="8"
+                 >
+              <TextView
+                  android:id="@+id/title"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="6"
+                  android:gravity="center"
+                  />
+               <ImageView
+                   android:layout_width="0dp"
+                   android:src="@drawable/grid"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/style"
+                   android:layout_weight="1"
+                   />
+             </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.roughike.bottombar.BottomBar
+            android:id="@+id/bottomBar"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            app:bb_activeTabAlpha="1"
+            app:bb_inActiveTabColor="#FFFFFF"
+            app:bb_activeTabColor="#FF0000"
+            android:layout_marginBottom="5dp"
+            app:bb_tabXmlResource="@xml/bottombar_tabs" />
+        <FrameLayout
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottomBar"
+            android:id="@+id/framelayout">
+        </FrameLayout>
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

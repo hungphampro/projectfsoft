@@ -1,0 +1,719 @@
+{
+    "html_attributions": [
+        "Listings by <a href=\"http://www.diadiem.com/\">Diadiem.com</a>"
+    ],
+    "next_page_token": "CoQC9QAAANpc4L-nyEhF688jlcUT6i7hSygaEzG9xMGzBGFBOdn4OfzWlrmEYfhVhrTi4T1-QaHIzg5gvm9JYPAK9IoBhGQcIBJ6yo8xdtlqHHb9zisAWSyRg_cDsagQREFfKYls5z1QCHoxMpz5bQ-l718MB9izA9Fr0FoZ25Vodv1_Ff1yh9N3V6Did9ACfC4d86wFL61MUovRJhep7l3NS_2MZFKv7ZI0nQL7wEy3MBSHpbh4m7imN-DxLxJnkkeoyhEcHqyy5YkOLC1OxEiF4R8hJugavK0HaFdloOE92oaJopvDyWbv4UQ1cLKv2CEAaODjFGybl9do-YwjVGs7len9dvwSEAGFr-7_hgVYxAMrRRF2d90aFCmTe3r1rgMNZviMWITyctyRB7Nn",
+    "results": [
+        {
+            "formatted_address": "Nhà máy nước Sân Bay, Trường Chinh, Hòa Thuận Tây, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 15.9977352,
+                    "lng": 107.9880772
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "id": "b6e354025d3a02a94ef4aeebc3e8ff977e6673de",
+            "name": "Bà Nà Hills Resort",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 2592,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110534619403832653859/photos\">tuan nguyen</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAALfp_nYuwKa6TvKmwzVFs1e-LsTErJ_tCsAkDCICVdHDreVFForX1xCbTrbm_Dr0sd45SKrMlzwM_zRHvDv35N9nwJz__YLDeQnrghi1j-KBgvC_ynsAMjPPOfG3yNT3Ft69xPafNsGRL1bpDyssfIPX7bsvIqXlRSL47CMBXEz0EhBhUFocavR5kAZTpOWhZyCnGhR5-6JxvHg2HvHEom0nargek-HTTw",
+                    "width": 3888
+                }
+            ],
+            "place_id": "ChIJz2jZD_z2QTERjrXpBl5vV6Q",
+            "rating": 4.4,
+            "reference": "CmRSAAAAIEMZlK10f26gStOZG9DHFF5ziEIepGT0zWs1o7nOXo6YyyabvnCKgUFMe3J48USCmIMoRi_eJ8wyHOzP3trpZT20HueP2obDhi6_pKjuzBeWk8RTJCMDNv3-PkaS_cz7EhDM552-FFyKBhUNBPNqnjL9GhTIOyVFZRaq3FsIDs2_-Xl4CMSyzA",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Hoàng Sa, Thọ Quang, Sơn Trà, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.1001442,
+                    "lng": 108.2777953
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 16.10088825,
+                        "lng": 108.2782981
+                    },
+                    "southwest": {
+                        "lat": 16.09791205,
+                        "lng": 108.2776277
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+            "id": "c585896adb6b6dd714f8bed487c1740bbc949354",
+            "name": "Chùa Linh Ứng - Bãi Bụt",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 2592,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107376035058471834970/photos\">Thuc Nguyen</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAAEPPM4lgpu38lFYBY0Cdmh9xi481uSqac993xcSRsZoCGjW-T25SXMmGuma_FpsjRgHYg-m_Qo6485iPLnnnqRWc36H-1Vd4IerxVqVyxLOB3C5IbKUVxBz7iqldRQu1FRMXO8X3CWvrOf47FM5ZvxyCrOOscOPgsby1RKzLNaiCEhAoqyPO8YtaifkDseVY_yI9GhSnPxEjghkCQgjpeXupKNziww__RQ",
+                    "width": 3872
+                }
+            ],
+            "place_id": "ChIJrYt9ldYXQjER8eEw0z9RnZw",
+            "rating": 4.6,
+            "reference": "CmRSAAAA6XBPAj8spc-noamsk5Q2RIbDZ-Jx2jpHLBgtDzxZYOx5hHqoNTDsYDR_vmJ8ryE-PxmwDHTMvab6MpbWBDUVqEZPc4a8CK0UzdP4dUYb8sBX61oOiq_FPAg-tI01jmC_EhCOYZviJI3oA5gB5h9EuXp6GhSNGK6FiFHCt06E86gXBPVUam68HQ",
+            "types": [
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "376 Nguyễn Tri Phương, Hòa Thuận Tây, Hải Châu, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.05463499999999,
+                    "lng": 108.209666
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 16.05525339999999,
+                        "lng": 108.2101358
+                    },
+                    "southwest": {
+                        "lat": 16.0527798,
+                        "lng": 108.2095094
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "2a9d439077c00d4088d59fe49ab040ae2eae4b0b",
+            "name": "Dananggreen, JSC",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 300,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114406523081087770136/photos\">Du Lịch Đà Nẵng Xanh</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAALyV6PIWv1ZPWkcVDlMs1GaQShYXojbjNN4CXzx41Umm2RgAMH5lyqXKzpIRFMCSNSm-1L5szVS23_poLAGYnY4yTP73fwO9nrYsFUA0bjcPkMif5ye_3waS1zOHQdd4dLTB78jhecBYLZvcz8X7db7CfenPYUxIpqCtbxKN8S1_EhDhEmZtLMOiTuixmSqnsNPeGhRUSH2OY_9M9-3zbleIt1CFgBV8iQ",
+                    "width": 300
+                }
+            ],
+            "place_id": "ChIJwcOXIksYQjERJ5vmEMiJiA0",
+            "rating": 4.6,
+            "reference": "CmRRAAAA3tdxDZDB2YWdvAxK_oP-qfaw5co6XYlgGlio-jNC1smkO__kr7mzhsMxyTylsHrPpNitVRxYe-g9VQoVMnssHcaVsobJ2xFiPKGEI7xuzJDiTxCLCCHSdeV83ToMERxOEhAbwdj4Za-wpNXH4SXPJUeOGhRlgB-q2iLYTOfEzUuPM5w0UKAx6Q",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.0709034,
+                    "lng": 108.245722
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 16.0709063,
+                        "lng": 108.24589465
+                    },
+                    "southwest": {
+                        "lat": 16.0708947,
+                        "lng": 108.24520405
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "28f6a69da2b4e0f03bf1ef5b708ba87a83d55947",
+            "name": "công viên Biển Đông",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 2448,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112477010737544394599/photos\">Radu Cristian Gosav</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAAFCb96Eq85VDbqKkmgULVk7pZSIzOm_4TjLPxYohRG4VViwCa2F_mId9QZyP_RJeWGcltvij0SM9suOa7K8EElUyaL3ox4vT_zqBVQtPDCsbghFLe7GJ3hBpCxXZznnAMbKe8bmM_wJo3DLJHE74iVIdzGAclZGjo_Fo04o2LzUxEhCxdaXQn0IGCXe_DO7vHhUiGhSEr2T7A1GEeAbenoztJhB6OgONCA",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJx6i-sYUXQjERWpQTnvquUJo",
+            "rating": 4.4,
+            "reference": "CmRSAAAANPeDWSm80_Tm4S7IipU1MluLr7AcE88W10cXjzh9mXtT0JcNSVoyJxtpwsokjQKVKq61TpGxSYKqZtYg27IYfsxtHqe5IDbkRXYPSLdxAwg-yCDBLc4GY5LO6OSsha1tEhAKUCXl-CUq-QQcS9N_9DddGhRg7EvRDgmM31-e8KapLI5BMI20_Q",
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "407 Điện Biên Phủ, Thanh Khê, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.0661979,
+                    "lng": 108.1899479
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 16.06629405,
+                        "lng": 108.18996575
+                    },
+                    "southwest": {
+                        "lat": 16.06590945,
+                        "lng": 108.18994195
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+            "id": "86a526bc5cae3d5dc6d7be5b11d959eaa59755a7",
+            "name": "Trường Cao Đẳng Nghề Du Lịch Đà Nẵng",
+            "photos": [
+                {
+                    "height": 454,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111764758921164584294/photos\">Trường Cao Đẳng Nghề Du Lịch Đà Nẵng</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAABBWO6trepVxnW0lOv6mwp82Pqb3iTG4MqfjzcqChAQEfnO2HrQ4gsKxitYD8jJ0YriNlKZ9epCxLcPGrf5TYRHLEU_2jl-28RnRzQvetM7K74IRvUppdqjmmcmHHSljN5Ps7xOSBPjpcGuhzdIcfSlt9eoSyJexksjzdUrEnJsJEhAH_GLGTz2L_9j5NfdMoneCGhSjbq5qLVOxpRo3F_eRx2nQSB8YAQ",
+                    "width": 713
+                }
+            ],
+            "place_id": "ChIJa4E-qTYYQjERmj4wMobJIgU",
+            "reference": "CmRRAAAA8K4aIkypS4GIsnoHhnnJnTlnTkjiyYByBFFtQj5IkyXbPEmNnwxY7etYcZe69MsQcCSIXsTAMgB7ekBnQorWq9vDLSkdXWzvOU7vEOJb3bPXPPIw2Rr68BD70tm10Y5WEhBLyUaY0Kk2Lj7dh2Ii_kBYGhRe13ehqxwKdIvkZUfEkPynV9v29w",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Hoàng Sa, Thọ Quang, Sơn Trà, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.1049889,
+                    "lng": 108.2897687
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 16.10568909999999,
+                        "lng": 108.28987105
+                    },
+                    "southwest": {
+                        "lat": 16.10475550000001,
+                        "lng": 108.28946165
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "id": "d3ec73bc1123207c95284d81bb4e181d281f47b8",
+            "name": "Bãi Rạng",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102786932399850537436/photos\">Thuy Lee</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAALbCWWVrYJM1JKHMvIB1nzf1m78ckSSliTdneaUmoKvWfkwf2pRZotWxiO036gRzX0WAgh2LpiKUkG3AMg0nBHS24T1cR63uKhXuOm5qKU2RqlkK81wM8CtLtX3KlLkIWVOgn9pdr7wDLPgBP2OW3cssGMOAMaKCJHdP7_0Xzx9CEhDC8-SUWYYzbsU2-7JQFQaEGhS7cjl82on2XWG9qrWS12mhplsf4A",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJudSLwYA9QjERk-iSR3a8Y-U",
+            "rating": 4.1,
+            "reference": "CmRSAAAAfA79RG0Hr8FOiZp-XKAsO_7fhTFBvEP7sMOCEmNS4u17Hz2jUbxjlxwBX9FMVsV089M8bhAtsehqo6L3ILXb2MUB10JTOqvdVFehLnmVvIRn6NseGYzXPRxUeIEWc4P5EhAdwF-K-ssXWFsrVzwh2gD4GhQHqn38c4A16TE0bWCXxJjGS9kOOQ",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "QL14G, Hòa Phú, Hòa Vang, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 15.9663077,
+                    "lng": 108.0253803
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 15.96737525,
+                        "lng": 108.02608035
+                    },
+                    "southwest": {
+                        "lat": 15.96595185,
+                        "lng": 108.02328015
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "02b3c5c0d61bd25e4e4af5a3b6a378ef6b8eca05",
+            "name": "Khu Du lịch sinh thái Ngầm Đôi",
+            "photos": [
+                {
+                    "height": 3240,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102663900365887560687/photos\">HuyHoang Vu</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAAFbEjWX1itfNcp9CYVg698MAeorMy0Uu7YHksbvWkCYRqyidkKNhGe9ser_U6HSzudtFvFsVkqZmfPHLmhrMKpAZca8XMz0bGF3306yq7ALxxPBAHl9Wc6_I0ZXK2kyStNLFyYYBFmUaQqrSCI0WutHFPpRiXw19tfxOXzIVWxdCEhBt497NElIPxDYYbzJxokpKGhSHVtstys1udGtPUxAJn9yStxyeOw",
+                    "width": 4320
+                }
+            ],
+            "place_id": "ChIJofjhbej3QTER0WsAIq8bSK8",
+            "rating": 3.6,
+            "reference": "CmRSAAAAJ9pGVkboPgkpUThTJkQe-VvSOCigqWHcWPNqS6SNJetDuUF0qbJx55G1DiuLmR7Tq-z7xzCC0GL5fHraeZrCxR8B1gph-LNKxCdK_0qfymggH_7OgZnmTwDqBrp8kTEvEhCCzPW7yBHHAb5HQUH7ApR8GhSeu_gQ4ST5uVWrr50wb6Q8YqC0Iw",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "QL14G, Hòa Phú, Hòa Vang, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 15.9542099,
+                    "lng": 107.9822582
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 15.95594465,
+                        "lng": 107.982441
+                    },
+                    "southwest": {
+                        "lat": 15.95363165,
+                        "lng": 107.9817098
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "id": "38ae40417aaeaee22781fb48e9958adbcfe5c1cd",
+            "name": "Khu vui chơi Hòa Phú Thành",
+            "photos": [
+                {
+                    "height": 3600,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114964385063686298452/photos\">Loi Nguyen</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAAHoCOiAQ23MWhFx8Ff98T2iYztpEJigZpHeDGdIX46iFteIn2PPPTH6XlUVEICSC9Om2ULHKE2SL97cfb2UcqQ11EnP59yxSTxjPR5U_mLLxbTCGS0czt4I474fE6LeBTDr3g-My1VWp39E28pWAUGXK6fsBrq2xyXVjjObNb5jUEhD3zAXxeeQAbXKa1WiRQHbKGhR6rJJyV8OMXLe_vmblPHqlaD2L_g",
+                    "width": 2160
+                }
+            ],
+            "place_id": "ChIJ_ws7qWb3QTERKF5_i9GOiAk",
+            "rating": 4.2,
+            "reference": "CmRRAAAAA___mCDfGsIUVw6VkpBUhiu3ITRKBCVJugbbLQWsgpLTZQ-UOzcNwZDgP5NDpDZRvCQK8NjO70eKV2ucy84A5pLc38APpdctXQ_GdJxG_YwQvKtRfpG_1xzfKTPZ6VvUEhCqtxHN4ZgiiMNwkip7GWFUGhRGt6YxoJKw4lzPP3wod0b-vx4sVg",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Da Nang, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.1561223,
+                    "lng": 108.1098862
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "ebeeaf1d0134d9eae430887919e2aced0989ffb0",
+            "name": "Khu du lịch Suối Lương",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105111877153601690766/photos\">Thanh Duy Nguyen</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAAIwtSe_1UG9muqOqE0xI6FjuxMW6XFqZHGbHUp-s_MppAPeG2NlsdaWc831tP1QuF2I67-boOU6ag4szPktdmnsDI_7ia4MHiYjpmnFt1pEgW--aOlu_nuh7VVNhxmiWTwm52SzPomMV1hyu5DhVLErFA7lLGJ4bcmU5FIaE1qMrEhCvAagdFur0EEQsG2CarhimGhQhLnZQYwErLegsCh3Tzwal1rhlFw",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ86LzsaUhQjERGxE6itCeBCY",
+            "rating": 4.3,
+            "reference": "CmRRAAAAYaLtXTxEB9l96nUr8TMgD50-C0qWsawhJMyNNOrvpjc00V-o3tr4loQylsq48zNCtwLTZ9IXCwdowtwykcG_OY5o8kt7H6Jcs6mayHj0QzN00eE6bxHbyd-XERZXRKl9EhAgflUgflKYaadJE5z02h58GhTcK-jMXHcjJLfv6lcUVikxnSx8uQ",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Khuê Trung, Cẩm Lệ, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.0220811,
+                    "lng": 108.213091
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "ab171fd406151ce976cbd438195f6b65b59a0b26",
+            "name": "Tour Du Lịch Đà Nẵng",
+            "place_id": "ChIJT2F22YoZQjERasvenSXZ-5Y",
+            "reference": "CmRSAAAAXOqggPeeTYvHfSb8YOW0RNEh3yEFDU-xgdN8tNMvXUuoQpsG9TKzrpag7-0Q1PFsMezye_C5Tu2S74JPszaeBR5f3QBGAVMaSMp4sm1Ni4sAHkRLCutqOOrPAMICqRjsEhBQGplkdJ5aW-lcgCl_b9KmGhQLBJiOvPfQubrkUqcXhri_s5FRQw",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Q. Hải Châu, 32 Phan Đình Phùng, Hải Châu 1, Q. Hải Châu, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.0705284,
+                    "lng": 108.2218104
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 16.07057155,
+                        "lng": 108.2218132
+                    },
+                    "southwest": {
+                        "lat": 16.07039895,
+                        "lng": 108.221802
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "7b2428a2262bb48c0ec721aae3fc4adc25b6856c",
+            "name": "Trung tâm Xúc tiến Du lịch Đà Nẵng",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 4208,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107958090732523727515/photos\">phú thịnh lê hà</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAAH2mke05__RFSxXspz0blHgZxZdCkQE9NsKvpfWydrpUoa4DvlfcZQbBKRZP4NJ3M50pcdRm_FvGEtY8Viuos2_HubWltPypVBRz-tRzPk8qp3yYWoR4Fah8g1YcMigTqLC1dNRJW6KbOuO3RBlVaPKr5H5jAR9K0git_xzLLppLEhAdwx4g60gBAsUtIFwEKS7aGhTV2pesaOeyjEytrR-vWlCGaHMMSA",
+                    "width": 2368
+                }
+            ],
+            "place_id": "ChIJp1QraTEYQjERCEBgQElx3-0",
+            "rating": 4.4,
+            "reference": "CmRSAAAA5GPYQ3zdYTjy2jxp1zkFEiWZggBtMwlp2Wjv0UhHuR_rrSVHq5H-7d9hWBOeVOE62YoTiaLMbuBujStOcy_eS6ebrAKaApDDWzwF-UMgXp5T7CITkQCd_vdFge0Bgzj8EhCUV1W_NQEaKBX-ccLmPT9mGhQRSg3DL1MeCURCWSQaRfQSczT0FQ",
+            "types": [
+                "travel_agency",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Huyền Trân Công Chúa, Ngũ Hành Sơn, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.0041842,
+                    "lng": 108.2642796
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 16.00480055,
+                        "lng": 108.2650845
+                    },
+                    "southwest": {
+                        "lat": 16.00233515,
+                        "lng": 108.2640113
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+            "id": "104ba53652db326b4d199dce1924a023242a495c",
+            "name": "Chùa Non Nước",
+            "photos": [
+                {
+                    "height": 667,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103347952401655786636/photos\">Nguyen Minh Son</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAAASFPGlCc6q1LSKgkoXe8nfCt9-wlwQMFOp2TtTLK-gi3XFG5MZTtlBFL9Aog4h8mX5c1mmDrk7n5-gcEh3Xf8uWYUG3rJSXB58jO5_QHqN0hCXMf8ote2vKCY-KH1ehcHj2czBLVqHzl4q__PpsKf1Mu08jsVoIWhgNNq2DNakxEhCYMAHaGh5vjSa7NgRq_uG1GhS0N_4mtinI9M1uirJz7VLCY1ce6w",
+                    "width": 1000
+                }
+            ],
+            "place_id": "ChIJfQNjLMYQQjERo1m_A0X8aLE",
+            "rating": 4.4,
+            "reference": "CmRSAAAAMl5RJRX0KAEMsT1iDw_cSN3WyUEvVjT72DOw6Huab06XiuhUGOvTzYUJW637rO7RcdF68ywHy6DhEFbbvdeBmDj1GIwj4TtGt9u3eWCAXa-GJWtSyjM7MgSPqoaNMGGQEhCM5OYrf5tzfeCDkQxu7NX1GhRCpWSp2oBIpsL5czgN3nCzhLIBRQ",
+            "types": [
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "550000, 495 Nguyễn Hữu Thọ, Khuê Trung, Cẩm Lệ, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.0341288,
+                    "lng": 108.2094686
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 16.0341507,
+                        "lng": 108.2095065
+                    },
+                    "southwest": {
+                        "lat": 16.0341195,
+                        "lng": 108.2093797
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "57beadffaaa063c3daf2ac69f85620f3602f73c6",
+            "name": "Thuê xe du lịch đà nẵng",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 719,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115331106678163645505/photos\">Thuê xe du lịch đà nẵng</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAAGunUwu5CylWnc7i5RW5U-MLsGGsYKu7EgOTf3-nrHZQByN3jjAQRkk3n05_yOZMaVtjFsCnLAWmBbJZenHmJZUWYd_pBki677ZTzo5IRjsxDnHCOvdHgnwCeuxzarLZLPxdh827K5rAscmycd1rdRJNdT5EFMJAQJtmlNft-TWCEhAjjcL2HWFgTk7L5-0YXkgnGhQ75CGGhOqrZEbrco63HhaTr82H6Q",
+                    "width": 721
+                }
+            ],
+            "place_id": "ChIJzxE8NJIZQjERrUORpRNMEAA",
+            "reference": "ClRQAAAAYQBhHYK940-NZhf1My-T3D0Wf8vAdJ5Bo_TISzrq7bbp8JpilBKayHCiE8g3gGIKG-aP88iLuW9avx9__PNhY0DqDQlpbJMYngO19zFhyAkSEHD6GlKz1QYK55R8gorbRV4aFFbrHiB4OQbb03I7ZryFUl1i938N",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "102 Lê Lợi, Hải Châu, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.075507,
+                    "lng": 108.2200012
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 16.07557765,
+                        "lng": 108.2200982
+                    },
+                    "southwest": {
+                        "lat": 16.07529505,
+                        "lng": 108.2197102
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "6a474fd347e6b9ee2f19a0fd257d9f719841ea08",
+            "name": "Sở Văn Hóa Thể Thao Du Lịch",
+            "place_id": "ChIJM38D_zkYQjERTeydhXi91aE",
+            "reference": "CmRSAAAAVf3lZ1MKOyT2SYJ2tuokNbfJoqnlOmW-UlR0pAf0BylNjOq5ABq5a7JHLJdHyFkeqcADE6pt5BEfMSNlIdn_-kRtb5qpe9GBvnleICkvgUaMzK01N6cFPqjwzl6mAzn5EhBzbPzqsCumPyBLArc-6uBdGhSIRtOcxOQ1ymePDaPCYAyBr6Cxmg",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Nam Kỳ Khởi Nghĩa, Hòa Hải Ngũ Hành Sơn Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 15.9768103,
+                    "lng": 108.2577703
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 15.97845010000001,
+                        "lng": 108.25777735
+                    },
+                    "southwest": {
+                        "lat": 15.9762637,
+                        "lng": 108.25774915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+            "id": "437e7102b66a42b9476f2425110727f9227e7a16",
+            "name": "Trường Cao đẳng Nghề Du lịch Đà Nẵng",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 2136,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116627279617603882705/photos\">Nguyen Van Hoang</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAAEpPElgBut8bwqaaqIN6wDY3o30WAMojoxoW8szHlc_klcuVU4NuQmuSxW41BaRR38WNLSaioVfo9i3z-qzq92kufzFosF8HYBFfSuzz4DZ1qQffv0Ll6R2J4-4rJziGZyjlYfeGn5MxH3Denx5zXvFHNNRsS1O0ZLEiECzg6Iq-EhDkBjd28sAmihrkUQaqCs9xGhQGjw8Lul8xB5m3zsLlaXhK9mFUPA",
+                    "width": 3216
+                }
+            ],
+            "place_id": "ChIJQaHCQowQQjERMAzgsOdm7wA",
+            "rating": 4.5,
+            "reference": "ClRQAAAAllepv2ntLayiJVmluHYayzpB4lK6gONh2ASwFdfgp8uATTW7Fs4VCwE9vqyIyNCbh2FXgI2nI8V1e7cQMP2DIp3ppTjNo4u0b-VjfbywnOgSEI4jJl73d8JWxoh2WBx-xWcaFNb2Aq-JfC7OrwoSIL_c7rQwWRW9",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "511 Điện Biên Phủ, Thanh Khê Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.0655099,
+                    "lng": 108.1858924
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 16.0655546,
+                        "lng": 108.1858988
+                    },
+                    "southwest": {
+                        "lat": 16.065429,
+                        "lng": 108.1858888
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "0f6a4c64b7862d8bebc913720f28656ffbde7618",
+            "name": "Danang Tourism Colleges",
+            "place_id": "ChIJy06cqcYZQjEREpdpixJHdFY",
+            "reference": "CmRRAAAAHTEMvxA13WMuCRO9JtIm9rmUS5xJ_VI7iEKud2ElJOdMaNMG1-k_7UBI3iFaxn0262Wy-BUhVuB1sEO3L5Uoi3eoa7WYq7unmwY8aGldtl3d-2qs4yY3gNxg00kBecUHEhB6q09rLGN00f9wndJT4g_aGhTWOO9qksIkDJ_bCqaylGbZlD2Yug",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Nguyễn Văn Linh, Phước Ninh, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.0612102,
+                    "lng": 108.2269758
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "db5815dfcc389a305cd33f30fc6dd256e0e4d23e",
+            "name": "Cầu Rồng Đà Nẵng",
+            "photos": [
+                {
+                    "height": 960,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117313531489113312566/photos\">Hai Tac</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAAEr22Gon_HKrc__5xJxvTYv_yLqlhc-u_fJntrPkEGf0ZrcilPg7FlMGJG6IFOZc4kDiWc2-X3vArvNPmmtU43o_XVdrzqGTLd_YyRB-efw-GvRbRmhFqdK48DkxrXw7_MndAE_KupkOpihzVI94psITJ3z17VccUetDGfm96u_TEhCkSTeXAY0AUTr5Nd1EmIs7GhRxMOgW0_v2g_xt_A5RA962vJviyg",
+                    "width": 960
+                }
+            ],
+            "place_id": "ChIJS3OdB80ZQjERlQcmSrdjfzM",
+            "rating": 4.6,
+            "reference": "CmRRAAAAJEYy5UU2yOt81GHagDvXZCV1dpn6zMu14cnTE30KVMRgtO8nl3-8aaIW_rSdPlBz-1-1UNf9L7BoqMUVt4KAhYUu9hI723w3POltCT-l39jB35dKWfwo0n-64eDfjCk0EhCk8qX7vqCF-bUig3JeT986GhQCmf7qZEz5Wt4ILvrvEhhuHMKpbA",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Hòa Phú, Hòa Vang, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.0347599,
+                    "lng": 107.9909156
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "03bbb1f4b3148f080d2090f0694c1b591dacd241",
+            "name": "Giếng Trời",
+            "photos": [
+                {
+                    "height": 3240,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108599563820563017585/photos\">Bao Tran</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAACUfTKa7SWNQmfjSFwBD3KkQ_Uq6ni66rBEfvu055QMqdRX4CJYXNNyjTi1t8Oh_5CV3FF6Q2aR_nyxnnMjzNID6UtOVWdAoroOmmW01-Q7QGYYO63TLz--YL6fkmGI6pstwlGWhWjV4RyJzfjZ0Ca2xaevApSGxRtXxrKqW9uBWEhA_SQmERXwKAmA-LplgPmTJGhS_OeZcVjEspTGU9D2vRnPsN-F7TQ",
+                    "width": 4320
+                }
+            ],
+            "place_id": "ChIJB7NiEoP2QTERm1eL-dZuTKY",
+            "rating": 4.1,
+            "reference": "CmRSAAAAqWeozdPZ1GPlTRbl7QlhZh2hZlwz8BKhjrr0WMP3t4ffwH7XrGy-RnrIiZTrg5yUSeZAEWgixaecDhLV_YbG0dzxNZxLZzhCGpOdK0VPjs3HetC8EbQVrVD4q9PQXIRZEhDTJSUxiZReJvlqzsjLLHhiGhRPy9I2L7VSA-NUoyRRul0zRrzAZg",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Đường Không Tên, Liên Chiểu, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 16.1597209,
+                    "lng": 108.1069439
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "f20283ced01ec749a576e2760cfedfe5a4948f13",
+            "name": "Khu Du Lịch Thủy Vân Sơn",
+            "photos": [
+                {
+                    "height": 3096,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103934313830759947057/photos\">Manh Cuong Dinh</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAAJ8NoqPDuWxkgWt2SSAG4lyXcFQ7kdRJ3pwUPNOYy3rK3y0oqA2kXOhD4213zJ9tbszsPk5GISgyieu2Jbnw5FJNstgJ4Yo3AaNJVRDc3jtxDrV1YhXene62s15cCxmwSVGzEoiqShf7knI5L3mUF4dbLxjzv2LJO3Yl5JRfAZHOEhCrumlHKG7uzgL40R98HfxdGhTEp79ldqXRloXNHKwmkUlUJTb5pQ",
+                    "width": 4128
+                }
+            ],
+            "place_id": "ChIJFaF-pqghQjER-iMoRO--OZk",
+            "reference": "CmRSAAAAWVzy__mHU0sVlPXYA767q94O5Wdp2nmabuTLgEhNjhaELObLfRIBDQqH1eWNt3yDAF3UEwT2qk0SpgHhbCAti3N_2L3arYEnwVZX0sMkGKU3CkyTNF8OJ_gn91QZhxelEhCEJFZhM6NR767JvqFmDRjxGhQ2IHg37jxLjCS-7_ABpylF18dqvA",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "formatted_address": "Hòa Phú, Hòa Vang, Đà Nẵng, Vietnam",
+            "geometry": {
+                "location": {
+                    "lat": 15.9576169,
+                    "lng": 107.9917951
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "5cf856d860ed188a2927fc364fed009d853e128e",
+            "name": "Khu Du Lịch Hòa Phú Thành",
+            "photos": [
+                {
+                    "height": 1520,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105890842682992492745/photos\">thong nguyen</a>"
+                    ],
+                    "photo_reference": "CoQBdwAAACoiVsGgzUgdBcMGnD0qjgH0sKoFe42qp3rhQGxuL-EgrF357m-M8E_WAFrnzBw_Ely-lImsB3r8gn46nqiiF42ZajyI2sA1hef2lPjbfefesgARCvsDlEDObjr7If8ymEZ5SwKoa2t5idVANGJMwu943CcyuKHUdW3xsmKIwiVBEhAaojBSdX-AdRhLEdC03R5dGhRQX74PUtVBXHkrAbRR9y5Cdrv1yA",
+                    "width": 2688
+                }
+            ],
+            "place_id": "ChIJK7np93r3QTER83RICZfg9Po",
+            "rating": 4.3,
+            "reference": "CmRSAAAAtyj9DT16g6juMSD9FRkh5VgHi3nHtEd-6xqLqMHDXTShDnRxIyuFhTv0dj4G-geN7wOZesyNd6cZJwCvu_Ll_PxGbPy0uwGCWvl-QLsZlz0VGrWDhGQgE14ZYLLcckgDEhALDsnEk-ppRHsSeHbyu2BKGhQreX38F_98WKa2Z9YifWGD4bHT9A",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ]
+        }
+    ],
+    "status": "OK"
+}

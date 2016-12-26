@@ -1,0 +1,338 @@
+{
+    "html_attributions": [
+        "Listings by <a href=\"http://www.diadiem.com/\">Diadiem.com</a>"
+    ],
+    "result": {
+        "address_components": [
+            {
+                "long_name": "Nhà máy nước Sân Bay",
+                "short_name": "Nhà máy nước Sân Bay",
+                "types": [
+                    "premise"
+                ]
+            },
+            {
+                "long_name": "Trường Chinh",
+                "short_name": "Trường Chinh",
+                "types": [
+                    "route"
+                ]
+            },
+            {
+                "long_name": "Hòa Thuận Tây",
+                "short_name": "Hòa Thuận Tây",
+                "types": [
+                    "sublocality_level_1",
+                    "sublocality",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Da Nang",
+                "short_name": "Da Nang",
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Hòa Vang",
+                "short_name": "Hòa Vang",
+                "types": [
+                    "administrative_area_level_2",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Đà Nẵng",
+                "short_name": "Đà Nẵng",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Vietnam",
+                "short_name": "VN",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        ],
+        "adr_address": "Nhà máy nước Sân Bay, <span class=\"street-address\">Trường Chinh</span>, <span class=\"extended-address\">Hòa Thuận Tây</span>, <span class=\"locality\">Hòa Vang</span>, <span class=\"region\">Đà Nẵng</span>, <span class=\"country-name\">Vietnam</span>",
+        "formatted_address": "Nhà máy nước Sân Bay, Trường Chinh, Hòa Thuận Tây, Hòa Vang, Đà Nẵng, Vietnam",
+        "formatted_phone_number": "094 540 39 36",
+        "geometry": {
+            "location": {
+                "lat": 15.9977352,
+                "lng": 107.9880772
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+        "id": "b6e354025d3a02a94ef4aeebc3e8ff977e6673de",
+        "international_phone_number": "+84 94 540 39 36",
+        "name": "Bà Nà Hills Resort",
+        "opening_hours": {
+            "open_now": true,
+            "periods": [
+                {
+                    "close": {
+                        "day": 0,
+                        "time": "2330"
+                    },
+                    "open": {
+                        "day": 0,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 1,
+                        "time": "2330"
+                    },
+                    "open": {
+                        "day": 1,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 2,
+                        "time": "2330"
+                    },
+                    "open": {
+                        "day": 2,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 3,
+                        "time": "2330"
+                    },
+                    "open": {
+                        "day": 3,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 4,
+                        "time": "2330"
+                    },
+                    "open": {
+                        "day": 4,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 5,
+                        "time": "2330"
+                    },
+                    "open": {
+                        "day": 5,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 6,
+                        "time": "2330"
+                    },
+                    "open": {
+                        "day": 6,
+                        "time": "0800"
+                    }
+                }
+            ],
+            "weekday_text": [
+                "Monday: 8:00 AM – 11:30 PM",
+                "Tuesday: 8:00 AM – 11:30 PM",
+                "Wednesday: 8:00 AM – 11:30 PM",
+                "Thursday: 8:00 AM – 11:30 PM",
+                "Friday: 8:00 AM – 11:30 PM",
+                "Saturday: 8:00 AM – 11:30 PM",
+                "Sunday: 8:00 AM – 11:30 PM"
+            ]
+        },
+        "photos": [
+            {
+                "height": 2592,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110534619403832653859/photos\">tuan nguyen</a>"
+                ],
+                "photo_reference": "CoQBdwAAAGFW4AnBkoiRfzkpyrkjCcOPyFbNHnUifrfS8Ejky_u3wJhc1_hjHVoZ9JmvRNzKNOziuJ71fx9L9ANa6If07a0YDVTqgAK8CbxODaurSOfZfcbm_aUd33TjL31uUCzm5mwMjqccYEIb82nCdIsR4csOgLy4MdTUos1hq5v-UTlEEhBw3b8pSaODgjK57GE461PqGhTmuigILhmF8Lcs7WN1zb70mAhwFA",
+                "width": 3888
+            },
+            {
+                "height": 1264,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110222654789749308340/photos\">Muriel Lebeau</a>"
+                ],
+                "photo_reference": "CoQBdwAAACSZsnAqSeCOmPMaNe-jWmHtuUPTucyO2k_1cB-wAYwQaCkjmt9izjsvVlh6F9rlIc6D0P0zwB9hfACkno4xaLBTlVA6KxileF_coOwcpK-aNoHd0MGZbClrm5hI8bX3P8vLacZddugXg2DOwBNnnHRkuptsOH9gLsw0sDGpxTCuEhASkfdcy-c-jDa3jvfshqApGhROYjOAHQGBjPXnwbHJ9C4q0c6PIA",
+                "width": 1392
+            },
+            {
+                "height": 720,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108521420739361630242/photos\">Viettoan 168</a>"
+                ],
+                "photo_reference": "CoQBdwAAADQKengD9L6B-E2kGOROv8st4JPzl_DiLC7gBxEf-ey8Zk8Tu05P_IR9ovDGWX-WhSLgIX7Bj1gYSBNrJB27OkWYcbZGUCa7v5mwPK47sxqjUivYrDxQ9YYcbTs3Mko4z6h6B8hfZmTHS6V5RcOhgXCbNknW42BBnFQ03bDAXC_KEhDVAhungTdFQqKSTADTOm6GGhQIgKLdibRcGYoICzSrKbEfbne_Mg",
+                "width": 960
+            },
+            {
+                "height": 3456,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116221030120004179401/photos\">Tran Gia Thang</a>"
+                ],
+                "photo_reference": "CoQBdwAAAHOM2vbJStJUJiALb-gqOYqnVbDp8hdsGuQzQZT0rMFmeqjTcI2xy1WuAetJdYXdDhzR186cGa3hylhr8m-95x71SOPtOCw3Zpehos95MRN11leqYv70ccx-Tkj3PTN52shMCZQWKQExTt1GOo7y3yeMd8cOb7PNuCTK0WTp5V_NEhAcnBmnXXpzJjijNmE6pWvkGhT9chhECwK03eFDz-w5b6fQB02UfA",
+                "width": 4608
+            },
+            {
+                "height": 1536,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108521420739361630242/photos\">Viettoan 168</a>"
+                ],
+                "photo_reference": "CoQBdwAAAOuZmnrppfGJmiaTaubdDwYuC9Eal0rLmWErSS9zent-BM2NdABUbkwLV5Dulhq3UZBtCToky7Tl3mFuQDSn7JK-RI5ZKQ3Icx7uwm1O25fA_3-6zLHzTu0HG_A8lxJCXKKMr-LyuqV3RUV1npoTWCpOPJ0dnw0KdriQ2C8XRu2JEhCJcfOrxmjDPzyDN0rzCfnNGhSxHdwTCVAJ_YUvUzhKN062tdoSvA",
+                "width": 2048
+            },
+            {
+                "height": 1836,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100568627394001768754/photos\">Sumita S&#39;t Tv</a>"
+                ],
+                "photo_reference": "CoQBdwAAAPVkxWx4QmTAgn_xlcDLXxmrpZl0b0p_9J4xv4h0nIJDfnFeaRVwv7xTwgaRg9WcLSl0nBAuqY4eOLvnDyUtTj_nyDeEEPpOmlNsYV7QxBf4dtHcFzEfZWoYzAfuCLj22XxJVq2VwGm8SisGL3JpFIexiG2olAyvjZCux86dtcq0EhD-i9BIz7Nzk77U-ioUQdWHGhSbC41A7bBxiGOiwPThjbmeV-bc2A",
+                "width": 3264
+            },
+            {
+                "height": 540,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113343520508333044120/photos\">Shih-Hung Hsu</a>"
+                ],
+                "photo_reference": "CoQBdwAAACn6yH9K-hvCIspKUSVSfZrPJwTB1FBjidNP4t3BkBx8toz0LkbfcfvU7KG5cwHrrx5AvE61S-7eZwrEYc5OEh0Q0rNHAgf4e2dpQtKM5N-zq0diq8yfHKqAv9msmXD1c5Kpy0QqtmBvSRPyMatSVHzn61Zw5oRuZawmaNtZP1ObEhAx3xLz75ZyKHM6R-6Iouw5GhTdB_GyeID_yj1-sXDogrL8pmaomg",
+                "width": 960
+            },
+            {
+                "height": 2448,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112502354901693816449/photos\">Tuấn Hồ Anh</a>"
+                ],
+                "photo_reference": "CoQBdwAAABGk84YjrRwxmddk8J2YisxqIDq4_yNrUmL9OyZbcbtE4I7ioXCWe3sR6fQYDJXHLlkOkUkE1UKCktdC4Un5Yp2q8dFFpq4CY4YdUI9Fpg7XMfeRzy6N9UAKqwuhKuqltSqQbpk_K5DdXb6lEGC0Ryg2CucN5QMEt-0tlwEsK-O9EhDTcemwiBgYFtacArIB0uQKGhSLza0oXR2eXgJL5BzHyT9iF4eBmQ",
+                "width": 3264
+            },
+            {
+                "height": 1936,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110034275274486098571/photos\">Tuấn Anh Nguyễn</a>"
+                ],
+                "photo_reference": "CoQBdwAAADb5y3ciQUcbk5MBvTQ2Kqh_40L8-yWT4ST4M9bBDsTn09ezt1WmSW-zf2gR301XhPBhbu_iT9IoLdCesfIISPmkgFuMmPpA3YJcriZR7igi4DvjRDrzlRoCLKCYxPpCcklgesHazlXLOjIVuI4ntJ77qIne5bhsHA9vgFOPaZiBEhAy39z2cTZIinBl9Tm5jDjWGhRvlWD8ztJ0xzwHIr2nOQt7ZkE58g",
+                "width": 2592
+            },
+            {
+                "height": 720,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104318094848317737802/photos\">Tuyển Hoàng</a>"
+                ],
+                "photo_reference": "CoQBdwAAAAVH21z8C9oe3OE3G9NqmP1Rqf9yGMNx62w9VP0qwiIT2haO4jlDEF3YFTf4qg6jc2YFwlPIWrwo-Mq_fsAoc3eg4-3v0fHvw11SYvUaGHLYNgRwLNp1qRy7qLVdpzmSrhywHjr1acQsQOEkHZRkyrl48VMbD7lvzrOG-dSovV0DEhBtOasKFxS6hsyQmdw-gkJnGhTu-SaZnVYJYg_JWX8GmKSNxBCKVQ",
+                "width": 960
+            }
+        ],
+        "place_id": "ChIJz2jZD_z2QTERjrXpBl5vV6Q",
+        "rating": 4.4,
+        "reference": "CmRSAAAAyjsYVy915HO_iV4FzCvM538ZxYsoTA07uTzu5oHSLN0xDBXKC56kU5CGx8_FUP_3igxH0imdHtDS8gZ7r-VoDpUW4SRVifV0MsHzFlrfG6ouowzSWRS-Rn7i_8dvD8AiEhCQaHnYbvE5LxScbVawks66GhSVX3HIXPUCk0s29HkS66Xetk_jIQ",
+        "reviews": [
+            {
+                "aspects": [
+                    {
+                        "rating": 3,
+                        "type": "overall"
+                    }
+                ],
+                "author_name": "Maria Do",
+                "author_url": "https://www.google.com/maps/contrib/101443764941234018404/reviews",
+                "language": "en",
+                "profile_photo_url": "//lh6.googleusercontent.com/-wQzYyapKZcE/AAAAAAAAAAI/AAAAAAAAHRo/0saEjgpxA8A/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "3 weeks ago",
+                "text": "This was an amazing spot to go too with my family! We weren't expecting much so when we made it, everything was beautiful. If you're expecting a lot of entertainment/rides for kids, this isn't the place to be. But if you're a bit older & just want a nice place to stroll, take pictures, & eat good food at - I would recommend coming here! We took a cable car up the mountain which took about 20 minutes (long, I know) & I had my eyes closed the entire time because I'm terrified of heights. It goes really fast & you can definitely feel it going up & down so if weather is anywhere near bad, I would suggest not going at all. Especially since when you're at the top of the mountain, it'll get really cold & wet there first. Going down with bad weather would be very uneasy. They have a really fun driving cart coaster alongside the mountain & it's really fun! ",
+                "time": 1480594929
+            },
+            {
+                "aspects": [
+                    {
+                        "rating": 0,
+                        "type": "overall"
+                    }
+                ],
+                "author_name": "Jason Chua",
+                "author_url": "https://www.google.com/maps/contrib/101482051493251274778/reviews",
+                "language": "en",
+                "profile_photo_url": "//lh6.googleusercontent.com/-dtmqmgXRDAk/AAAAAAAAAAI/AAAAAAAAACM/TsEwuDvYtF0/photo.jpg",
+                "rating": 1,
+                "relative_time_description": "a month ago",
+                "text": "On 2/11/16, drove up to Ba Na Hill. Bought few tickets and take cable up to Ba Na Hill. Weather along the way in the cable car was very bad. The strong Wind & Rain made the visibility become worst. The Cable car waved and made us feeling giddy!\nUpon reach Ba Na Hill, the heavy rain & Cloudy weather lead us to no where as the outdoor was very bad. We intend to return back to Ba Na Sales counter to seek refund... The manager in charge says company don't refund even the weather is bad.. The ticket is $600000vnd per pax. For 2 hours traveling up n down from Ba Na Hill as weather was terrifying Worst, the Ba Na Mgmt didn't even inform the tourists about the weather up at Ba Na Hill..\nI strongly advise you all DO NOT VISIT THIS BA NA HILL !",
+                "time": 1478086445
+            },
+            {
+                "aspects": [
+                    {
+                        "rating": 2,
+                        "type": "overall"
+                    }
+                ],
+                "author_name": "Marvin R2D2",
+                "author_url": "https://www.google.com/maps/contrib/102946554726170737144/reviews",
+                "language": "en",
+                "profile_photo_url": "//lh6.googleusercontent.com/-4ssb3tCvO2g/AAAAAAAAAAI/AAAAAAAAAFE/5kFT716mjH0/photo.jpg",
+                "rating": 4,
+                "relative_time_description": "2 months ago",
+                "text": "A place you can spend a whole day wander and play. Should note that it's a little cold up there. Wind is strong. May take a lot of time queue.",
+                "time": 1475911345
+            },
+            {
+                "aspects": [
+                    {
+                        "rating": 3,
+                        "type": "overall"
+                    }
+                ],
+                "author_name": "max saigon",
+                "author_url": "https://www.google.com/maps/contrib/113006856866977418924/reviews",
+                "language": "en",
+                "rating": 5,
+                "relative_time_description": "2 months ago",
+                "text": "Loved it all. Cable car,gardens,cafe and the magnificent buildings. I could live here and never go down. Absolutely in love with BàNà Hills.",
+                "time": 1476921598
+            },
+            {
+                "aspects": [
+                    {
+                        "rating": 3,
+                        "type": "overall"
+                    }
+                ],
+                "author_name": "Hoai Nguyen",
+                "author_url": "https://www.google.com/maps/contrib/115044962578980374393/reviews",
+                "language": "en",
+                "profile_photo_url": "//lh5.googleusercontent.com/-zyNlIpH3yzo/AAAAAAAAAAI/AAAAAAAAAOI/YknC1M60Tfk/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "in the last week",
+                "text": "This will be a best place for u if u need to go somewhere for relaxing. There are a pure air with France song that will make u leave all ur pressure behind",
+                "time": 1482158700
+            }
+        ],
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+        ],
+        "url": "https://maps.google.com/?cid=11842056194827597198",
+        "utc_offset": 420,
+        "vicinity": "Nhà máy nước Sân Bay, Trường Chinh, Hòa Thuận Tây",
+        "website": "http://www.banahills.com.vn/en/contact"
+    },
+    "status": "OK"
+}

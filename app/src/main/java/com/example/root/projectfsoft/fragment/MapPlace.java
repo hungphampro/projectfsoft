@@ -25,77 +25,93 @@ import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.MapsInitializer;
+import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by root on 26/12/2016.
  */
 
-public class MapPlace extends Fragment implements View.OnClickListener{
+public class MapPlace extends Fragment implements View.OnClickListener,OnMapReadyCallback {
     private EditText money;
     private Context mContext;
     PlaceFamousImpl plceFamous;
     ArrayList<Place> dsplace;
+    private List<Marker> originMarkers = new ArrayList<>();
     private AutoCompleteTextView place;
     String chuoitim;
-    String[] topic=new String[]{"lãng mạn","cổ kính","khám phá phiêu lưu","thám hiểm","đẹp","vui chơi giải trí","thiên nhiên hoang dã","trò chơi","du lịch sinh thái","làng đặc sản","khám phá ẩm thực"};
+    String[] topic = new String[]{"lãng mạn", "cổ kính", "khám phá phiêu lưu", "thám hiểm", "đẹp", "vui chơi giải trí", "thiên nhiên hoang dã", "trò chơi", "du lịch sinh thái", "làng đặc sản", "khám phá ẩm thực"};
     Button search;
-    MapView mapView;
-    GoogleMap map;
+    SupportMapFragment mMapFragment;
+    GoogleMap mMap;
+
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        mContext=inflater.getContext();
+        mContext = inflater.getContext();
         View view = LayoutInflater.from(inflater.getContext()).inflate(R.layout.goi_y_duong_di, container, false);
 
-        mapView = (MapView) view.findViewById(R.id.mapview);
-        mapView.onCreate(savedInstanceState);
-        money= (EditText) view.findViewById(R.id.money);
-        place= (AutoCompleteTextView) view.findViewById(R.id.autoText);
-        search=(Button) view.findViewById(R.id.search);
-        ArrayAdapter example=new ArrayAdapter(inflater.getContext(),android.R.layout.simple_list_item_1,topic);
+        mMapFragment = (SupportMapFragment) this.getActivity().getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mMapFragment.getMapAsync(this);
+
+        money = (EditText) view.findViewById(R.id.money);
+        place = (AutoCompleteTextView) view.findViewById(R.id.autoText);
+        search = (Button) view.findViewById(R.id.search);
+        ArrayAdapter example = new ArrayAdapter(inflater.getContext(), android.R.layout.simple_list_item_1, topic);
         place.setAdapter(example);
+        search.setOnClickListener(this);
+        return view;
+    }
 
-        map = mapView.getMap();
-        map.getUiSettings().setMyLocationButtonEnabled(false);
-        if (ActivityCompat.checkSelfPermission(inflater.getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(inflater.getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+    private void setupMap() {
+         mMap.getUiSettings().setZoomControlsEnabled(false);
+    }
 
+    @Override
+    public void onClick(View view) {
+        if (view.getId() == R.id.search) {
+            if (place.getText().toString().trim().isEmpty()) {
+                chuoitim = "địa điểm du lịch nổi tiếng";
+            } else {
+                chuoitim = place.getText().toString();
+            }
+
+            chuoitim = chuoitim.replace(" ", "+");
+        }
+    }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        mMap = googleMap;
+        LatLng hcmus = new LatLng(10.762963, 106.682394);
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(hcmus, 18));
+        originMarkers.add(mMap.addMarker(new MarkerOptions()
+                .title("Đại học Khoa học tự nhiên")
+                .position(hcmus)));
+
+        if (ActivityCompat.checkSelfPermission(this.getActivity(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this.getActivity(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
             //    ActivityCompat#requestPermissions
             // here to request the missing permissions, and then overriding
             //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
             //                                          int[] grantResults)
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
-              return view;
+            return;
         }
-        map.setMyLocationEnabled(true);
-
-        // Needs to call MapsInitializer before doing any CameraUpdateFactory calls
-        MapsInitializer.initialize(this.getActivity());
-
-        // Updates the location and zoom of the MapView
-        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(new LatLng(43.1, -87.9), 10);
-        map.animateCamera(cameraUpdate);
-        search.setOnClickListener(this);
-        return view;
+        mMap.setMyLocationEnabled(true);
     }
 
-    @Override
-    public void onClick(View view) {
-        if(view.getId()==R.id.search){
-            if(place.getText().toString().trim().isEmpty()){
-                chuoitim="địa điểm du lịch nổi tiếng";
-            }else{
-                chuoitim=place.getText().toString();
-            }
-
-            chuoitim=chuoitim.replace(" ","+");
-        }
-    }
 }

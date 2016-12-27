@@ -36,6 +36,7 @@ public class ListFamousPlaceDaNang extends Fragment {
     ItemListAapter itemListAapter;
     PlaceFamousImpl placeFamous;
     LayoutInflater mInflater;
+    String text="địa+điểm+du+lịch+nổi+tiếng+đà+nẵng";
     boolean flag=true;
     RecyclerView rc;
     @Nullable
@@ -50,7 +51,7 @@ public class ListFamousPlaceDaNang extends Fragment {
         rc.setLayoutManager(ln);
         mPlaces=new ArrayList<>();
         placeFamous=new PlaceFamousImpl(inflater.getContext());
-        placeFamous.getPlaceFamous(new CallBack<ArrayList<Place>>() {
+        placeFamous.getPlaceFamous(text,new CallBack<ArrayList<Place>>() {
             @Override
             public void next(ArrayList<Place> data) {
                 mPlaces=data;
@@ -63,10 +64,10 @@ public class ListFamousPlaceDaNang extends Fragment {
         rc.addOnItemTouchListener(new RecycleViewClicker(mInflater.getContext(), rc, new RecycleViewClicker.click() {
             @Override
             public void onClick(View view, int position) {
-               /* Intent i=new Intent(mInflater.getContext(), ActivityDetailImage.class);
+               Intent i=new Intent(mInflater.getContext(), ActivityDetailImage.class);
                 i.putExtra("from",2);
                 i.putExtra("id",mPlaces.get(position).getId());
-                startActivity(i);*/
+                startActivity(i);
             }
 
             @Override

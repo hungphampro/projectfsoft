@@ -1,0 +1,260 @@
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJwcOXIksYQjERJ5vmEMiJiA0",
+            "types": [
+                "establishment",
+                "point_of_interest"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJx6i-sYUXQjERWpQTnvquUJo",
+            "types": [
+                "establishment",
+                "park",
+                "point_of_interest"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 16.0708976,
+                    "lng": 108.2458521
+                },
+                "southwest": {
+                    "lat": 16.0481893,
+                    "lng": 108.2088887
+                }
+            },
+            "copyrights": "Map data ©2016 Google",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "6.7 km",
+                        "value": 6676
+                    },
+                    "duration": {
+                        "text": "12 mins",
+                        "value": 714
+                    },
+                    "end_address": "công viên Biển Đông, Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Đà Nẵng, Vietnam",
+                    "end_location": {
+                        "lat": 16.0708976,
+                        "lng": 108.2453767
+                    },
+                    "start_address": "Dananggreen, JSC, 376 Nguyễn Tri Phương, Hòa Thuận Tây, Hải Châu, Đà Nẵng, Vietnam",
+                    "start_location": {
+                        "lat": 16.0534129,
+                        "lng": 108.2099792
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 133
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 26
+                            },
+                            "end_location": {
+                                "lat": 16.0524356,
+                                "lng": 108.210535
+                            },
+                            "html_instructions": "Head <b>south</b> on <b>Nguyễn Tri Phương</b> toward <b>Lê Đình Lý</b><div style=\"font-size:0.9em\">Pass by Văn Phòng Luật Sư Nguyễn Trung Điểm (on the right)</div>",
+                            "polyline": {
+                                "points": "yl~`BkwmsSb@ENAf@Gj@Kx@sA"
+                            },
+                            "start_location": {
+                                "lat": 16.0534129,
+                                "lng": 108.2099792
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 226
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 37
+                            },
+                            "end_location": {
+                                "lat": 16.0507611,
+                                "lng": 108.2093622
+                            },
+                            "html_instructions": "Turn <b>right</b> at Mắt Kính Đại Nam onto <b>Lê Đình Lý</b><div style=\"font-size:0.9em\">Pass by Công Ty Tnhh Mtv Đại Mộc Xanh (on the right)</div>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "wf~`B{zmsStFhDLP@@RRLHDB`@J"
+                            },
+                            "start_location": {
+                                "lat": 16.0524356,
+                                "lng": 108.210535
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.4 km",
+                                "value": 1443
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 164
+                            },
+                            "end_location": {
+                                "lat": 16.0492514,
+                                "lng": 108.2207914
+                            },
+                            "html_instructions": "At the roundabout, take the <b>5th</b> exit onto <b>Duy Tân</b><div style=\"font-size:0.9em\">Pass by Công Ty Cp Sách &amp; Thiết Bị Giáo Dục Miền Trung (on the right)</div>",
+                            "maneuver": "roundabout-right",
+                            "polyline": {
+                                "points": "g|}`BosmsSCDAHAH?F?F@F?@BDBFBDDDBBDBD@DBD?D@D?D?B?DADABADABCBCBCBCBEBG@E@G?E?G?EAE?AAC?CAAACACAA?AAAA??AAAAAA?f@q@T_@FGfCgFFK|C}FJUTg@JUDSKcB_@gF]oEMgBGu@e@oGGw@IiASkDEm@WkDCu@Ea@"
+                            },
+                            "start_location": {
+                                "lat": 16.0507611,
+                                "lng": 108.2093622
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 153
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 21
+                            },
+                            "end_location": {
+                                "lat": 16.0493177,
+                                "lng": 108.222179
+                            },
+                            "html_instructions": "At the roundabout, take the <b>2nd</b> exit and stay on <b>Duy Tân</b><div style=\"font-size:0.9em\">Pass by Café Việt Hương Trần Thị Lý (on the right)</div>",
+                            "maneuver": "roundabout-right",
+                            "polyline": {
+                                "points": "yr}`B}zosS?A@?@A?A@A?A@A?A?C?A?A?AAA?A?AA??AA??AA??AA?BK@SKmDEc@"
+                            },
+                            "start_location": {
+                                "lat": 16.0492514,
+                                "lng": 108.2207914
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.7 km",
+                                "value": 1698
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 136
+                            },
+                            "end_location": {
+                                "lat": 16.0530645,
+                                "lng": 108.2368855
+                            },
+                            "html_instructions": "At the roundabout, take the <b>2nd</b> exit onto <b>Cầu Trần Thị Lý</b><div style=\"font-size:0.9em\">Pass by the monument (on the right)</div>",
+                            "maneuver": "roundabout-right",
+                            "polyline": {
+                                "points": "gs}`BscpsSBABEBE@E@C?A@E?G?EAE?ECIACAACCAAAACCAACAG[Ca@QoDAi@G{AEwAIaCSaDUiDMsB_A}MUeD[sEOmBImAEk@Ei@M}AKeAKo@Qq@Qg@Wk@Yi@[c@]]_@_@c@]CA[WOSoDyB"
+                            },
+                            "start_location": {
+                                "lat": 16.0493177,
+                                "lng": 108.222179
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.0 km",
+                                "value": 980
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 113
+                            },
+                            "end_location": {
+                                "lat": 16.0612959,
+                                "lng": 108.234546
+                            },
+                            "html_instructions": "At the roundabout, take the <b>3rd</b> exit onto <b>Ngô Quyền</b>/<b>QL14B</b><div style=\"font-size:0.9em\">Pass by Tiệm Đồng Hồ Long Thành (on the right)</div>",
+                            "maneuver": "roundabout-right",
+                            "polyline": {
+                                "points": "sj~`Bq_ssS?A?C?C?CAC?CCEACACCA?AAACAAACAA?EAC?C?A?C?C@C?C@C@A@CBA@A@A@ABA@AB?BABo@Ta@JwE|@uL~B{Bf@uCn@uFbAsHdB"
+                            },
+                            "start_location": {
+                                "lat": 16.0530645,
+                                "lng": 108.2368855
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.2 km",
+                                "value": 1212
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 128
+                            },
+                            "end_location": {
+                                "lat": 16.0638421,
+                                "lng": 108.2454691
+                            },
+                            "html_instructions": "At the roundabout, take the <b>1st</b> exit onto <b>Võ Văn Kiệt</b><div style=\"font-size:0.9em\">Go through 1 roundabout</div><div style=\"font-size:0.9em\">Pass by Quán Nhậu Hiền (on the right in 900&nbsp;m)</div>",
+                            "maneuver": "roundabout-right",
+                            "polyline": {
+                                "points": "c~_aB}prsSAAAAA?ACG_@K{@Ce@YkCg@aGo@oGc@aEImA@A?A@A@A@C?A?C@A?A?C?C?AAA?C?AAAACAA?AAAAAAACAA?AACAKi@i@oCi@{CUgA_AyEe@wB_AuEI_@Ek@"
+                            },
+                            "start_location": {
+                                "lat": 16.0612959,
+                                "lng": 108.234546
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.8 km",
+                                "value": 831
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 89
+                            },
+                            "end_location": {
+                                "lat": 16.0708976,
+                                "lng": 108.2453767
+                            },
+                            "html_instructions": "At the roundabout, take the <b>2nd</b> exit onto <b>Võ Nguyên Giáp</b><div style=\"font-size:0.9em\">Pass by F2Bar (on the right)</div><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                            "maneuver": "roundabout-right",
+                            "polyline": {
+                                "points": "_n`aBeutsS@A@C@C@E@C?C?E?CAC?A?CACACACACCCCCCACACAEAC?C?E?C?C@C?C@GDEDA@ABCD]L]D_@@S@C@_@@s@B{@@gHHiA@wBAuDFeABeAByBBe@@}@?g@?"
+                            },
+                            "start_location": {
+                                "lat": 16.0638421,
+                                "lng": 108.2454691
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "yl~`BkwmsSr@GrASx@sAtFhDNR`@\\f@NGX@XPXTLV@REPMLW@UCQEMIKbAyAxHgO`@}@DSk@kIk@wH_AgMYyE[aFCc@@CBE?IGMA?D_@QqEFGFQ?YGUKKECG[Ca@SyEMsD]cHc@}GaCe]c@aGWuBc@yAq@uAy@aAcA}@_@YOSoDyB?EAKGQIGMEM?ODIHEFAFq@XyFhAqPfDuCn@uFbAuHbBCAIc@OaBaAmKsAqMGoADI?UISIECAKi@sAkHuAaHeBmIOkABEDQAOEOMMQEM?SHMP]L}@FkBHcJJaE?{LRkC@"
+            },
+            "summary": "Cầu Trần Thị Lý",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}

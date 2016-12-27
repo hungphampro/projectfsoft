@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import com.example.root.projectfsoft.dataBase.RealmController;
 import com.example.root.projectfsoft.fragment.FragmentFavorite;
 import com.example.root.projectfsoft.fragment.ListFamousPlaceDaNang;
+import com.example.root.projectfsoft.fragment.MapPlace;
 import com.example.root.projectfsoft.model.PlaceFavorite;
 import com.example.root.projectfsoft.model.ReviewPlace;
 import com.example.root.projectfsoft.model.ShowImage;
@@ -109,7 +110,7 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment=null;
         switch (item.getItemId()){
             case R.id.nav_place:
-                fragment=new ListFamousPlaceDaNang();
+                fragment=new MapPlace();
                 break;
             case R.id.nav_favorite: fragment=new FragmentFavorite();
                 break;

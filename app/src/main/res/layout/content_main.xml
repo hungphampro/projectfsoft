@@ -48,10 +48,8 @@
             app:bb_activeTabAlpha="1"
             app:bb_inActiveTabColor="#FFFFFF"
             app:bb_activeTabColor="#FF0000"
-            android:layout_marginBottom="5dp"
             app:bb_tabXmlResource="@xml/bottombar_tabs" />
         <FrameLayout
-            android:layout_marginTop="?attr/actionBarSize"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@+id/bottomBar"

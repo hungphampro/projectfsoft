@@ -20,11 +20,11 @@ import retrofit2.Response;
 public class PlaceFamousImpl {
     private Context mContext;
     private static String apikey="AIzaSyD-Di7PSbAJ1gVFEVgpo2jyRxWNpm9-BjU";
-    String text="địa+điểm+du+lịch+nổi+tiếng+đà+nẵng";
+
     public PlaceFamousImpl(Context context){
         mContext=context;
     }
-    public void getPlaceFamous(final CallBack<ArrayList<Place>> data){
+    public void getPlaceFamous(String text,final CallBack<ArrayList<Place>> data){
         PlaceFamous placeFamous= Configuration.getClient().create(PlaceFamous.class);
         Call<APIResponse<ArrayList<Place>>> call= placeFamous.getPlaceFamous(text,apikey);
         call.enqueue(new Callback<APIResponse<ArrayList<Place>>>() {

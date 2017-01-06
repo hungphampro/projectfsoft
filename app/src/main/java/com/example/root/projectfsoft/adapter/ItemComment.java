@@ -57,7 +57,7 @@ public class ItemComment extends RecyclerView.Adapter<ItemComment.ViewHoler> {
                holder.content.setText(rvp.getContent());
            }else{
                Reviews rvs=mReviewses.get(position);
-               Picasso.with(mContext).load(rvs.getPhoto_url().substring(2,rvs.getPhoto_url().length())).into(holder.avatar);
+               Picasso.with(mContext).load("https:" +rvs.getPhoto_url()).into(holder.avatar);
                holder.authorName.setText(rvs.getNameAuthor());
                holder.rating.setText(String.valueOf(rvs.getRating()));
                holder.content.setText(rvs.getContent());

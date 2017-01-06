@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Place"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:id="@+id/popular"
+            android:textSize="16sp"
+            android:buttonTint="#329332"
+            android:text="Địa điểm du lịch nổi tiếng"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ecological"
+            android:buttonTint="#329332"
+            android:textSize="16sp"
+            android:text="Địa điểm du lịch sinh thái "/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#329332"
+            android:id="@+id/adventure"
+            android:textSize="16sp"
+            android:text="Địa điểm phiêu lưu "/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#329332"
+            android:id="@+id/beautiful"
+            android:textSize="16sp"
+            android:text="Địa điểm đẹp và lãng mạng "/>
+    </RadioGroup>
 
 </LinearLayout>

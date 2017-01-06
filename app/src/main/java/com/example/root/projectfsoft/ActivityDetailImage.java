@@ -39,10 +39,6 @@ public class ActivityDetailImage extends AppCompatActivity {
 
     private static String id;
 
-    private TextView mPlaceName;
-
-    private TextView mAddress;
-
     private Realm realm;
 
     private ArrayList<com.example.root.projectfsoft.service.response.ShowImage> mangInternet;
@@ -58,19 +54,20 @@ public class ActivityDetailImage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detail_place);
         realm= RealmController.with(this).getRealm();
-        mPlaceName= (TextView) findViewById(R.id.placeName);
-        mAddress= (TextView) findViewById(R.id.placeAddress);
         rcImage= (RecyclerView) findViewById(R.id.image);
         LinearLayoutManager ln=new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
         rcImage.setLayoutManager(ln);
+        rcImage.setNestedScrollingEnabled(false);
         rcImage.setItemAnimator(new DefaultItemAnimator());
         rcComent= (RecyclerView) findViewById(R.id.comment);
         LinearLayoutManager li=new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
         rcComent.setLayoutManager(li);
+        rcComent.setNestedScrollingEnabled(false);
         rcComent.setItemAnimator(new DefaultItemAnimator());
         Intent i=getIntent();
         t=i.getIntExtra("from",0);
         id=i.getStringExtra("id");
+        System.out.println("Gia tri cua id:"+id);
         if(t==1)
         {
             ArrayList<ShowImage> moi=new ArrayList<>(realm.where(ShowImage.class).equalTo("idPlace",id).findAll());

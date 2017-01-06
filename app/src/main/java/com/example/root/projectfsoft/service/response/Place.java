@@ -1,5 +1,6 @@
 package com.example.root.projectfsoft.service.response;
 
+import com.google.android.gms.maps.model.LatLng;
 import com.google.gson.annotations.SerializedName;
 
 /**

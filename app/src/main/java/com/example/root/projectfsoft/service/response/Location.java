@@ -1,5 +1,6 @@
 package com.example.root.projectfsoft.service.response;
 
+import com.google.android.gms.maps.model.LatLng;
 import com.google.gson.annotations.SerializedName;
 
 /**
@@ -7,24 +8,18 @@ import com.google.gson.annotations.SerializedName;
  */
 
 public class Location {
-    @SerializedName("lat")
-    double lat;
-    @SerializedName("lng")
-    double lng;
 
-    public double getLat() {
-        return lat;
+    @SerializedName("location")
+    Vitri location;
+
+
+    public  Vitri getLocation() {
+        return location;
     }
 
-    public void setLat(double lat) {
-        this.lat = lat;
+    public void setLocation(Vitri location) {
+        this.location = location;
     }
 
-    public double getLng() {
-        return lng;
-    }
 
-    public void setLng(double lng) {
-        this.lng = lng;
-    }
 }

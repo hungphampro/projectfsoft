@@ -48,7 +48,7 @@ public class SettingFragment extends Fragment implements View.OnClickListener{
         sortBy= (LinearLayout) v.findViewById(R.id.sortBy);
         categoryName= (TextView) v.findViewById(R.id.categoryName);
         numberRatePlace= (TextView) v.findViewById(R.id.NumberRatePlace);
-        check= (CheckBox) v.findViewById(R.id.check);
+        check=(CheckBox) v.findViewById(R.id.check);
         category.setOnClickListener(this);
         placeRate.setOnClickListener(this);
 

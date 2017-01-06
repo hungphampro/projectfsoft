@@ -17,8 +17,16 @@
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="start"
+        android:background="#FFFFFF"
         android:fitsSystemWindows="true"
+        android:layout_gravity="start|top"
+        android:nestedScrollingEnabled="true"
+        android:scrollbars="none"
+        android:theme="@style/NavigationTheme"
+        app:itemBackground="@color/colorinputlayout"
+        app:itemIconTint="@color/colornavmenu"
+        app:itemTextAppearance="@style/yourstyle"
+        app:itemTextColor="@color/text_color_item_nav"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 

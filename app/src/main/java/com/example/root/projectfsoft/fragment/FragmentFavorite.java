@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.root.projectfsoft.ActivityDetailImage;
 import com.example.root.projectfsoft.R;
@@ -40,15 +41,19 @@ public class FragmentFavorite extends Fragment{
           mInflater=inflater;
         View view  =inflater.inflate(R.layout.list_fragment,container,false);
         Toolbar toolbar = (Toolbar) getActivity().findViewById(R.id.toolbar);
+        ImageView mImg= (ImageView) toolbar.findViewById(R.id.style);
+        mImg.setVisibility(View.INVISIBLE);
+        TextView title= (TextView) toolbar.findViewById(R.id.title);
+        title.setText("Favorite Place");
         rc= (RecyclerView) view.findViewById(R.id.recyclerView);
-        LinearLayoutManager ln=new LinearLayoutManager(mInflater.getContext(),LinearLayoutManager.VERTICAL,false);
+          LinearLayoutManager ln=new LinearLayoutManager(mInflater.getContext(),LinearLayoutManager.VERTICAL,false);
          rc.setLayoutManager(ln);
          realm= RealmController.with(this).getRealm();
          mPlaces=new ArrayList<>(realm.where(PlaceFavorite.class).findAll());
          itemListFavoritePlace=new ItemListFavoritePlace(inflater.getContext(),mPlaces);
          rc.setAdapter(itemListFavoritePlace);
          rc.setItemAnimator(new DefaultItemAnimator());
-         rc.addOnItemTouchListener(new RecycleViewClicker(mInflater.getContext(), rc, new RecycleViewClicker.click() {
+        /* rc.addOnItemTouchListener(new RecycleViewClicker(mInflater.getContext(), rc, new RecycleViewClicker.click() {
              @Override
              public void onClick(View view, int position) {
                  Intent i=new Intent(mInflater.getContext(), ActivityDetailImage.class);
@@ -61,7 +66,7 @@ public class FragmentFavorite extends Fragment{
              public void onLongClick(View view, int position) {
 
              }
-         }));
+         }));*/
          return view;
     }
 }

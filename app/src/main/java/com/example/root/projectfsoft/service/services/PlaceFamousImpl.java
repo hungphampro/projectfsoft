@@ -6,6 +6,7 @@ import com.example.root.projectfsoft.service.Configuration;
 import com.example.root.projectfsoft.service.response.APIResponse;
 import com.example.root.projectfsoft.service.response.Place;
 import com.example.root.projectfsoft.service.util.CallBack;
+import com.example.root.projectfsoft.service.util.Contants;
 
 import java.util.ArrayList;
 
@@ -31,6 +32,21 @@ public class PlaceFamousImpl {
             @Override
             public void onResponse(Call<APIResponse<ArrayList<Place>>> call, Response<APIResponse<ArrayList<Place>>> response) {
                data.next(response.body().getDsPlace());
+            }
+
+            @Override
+            public void onFailure(Call<APIResponse<ArrayList<Place>>> call, Throwable t) {
+
+            }
+        });
+    }
+    public void getPlaceNeccessary(String location,String type,final CallBack<ArrayList<Place>> data){
+        PlaceFamous placeFamous= Configuration.getClient().create(PlaceFamous.class);
+        Call<APIResponse<ArrayList<Place>>> call= placeFamous.getPlaceNeccessary(location,5000,type, Contants.key);
+        call.enqueue(new Callback<APIResponse<ArrayList<Place>>>() {
+            @Override
+            public void onResponse(Call<APIResponse<ArrayList<Place>>> call, Response<APIResponse<ArrayList<Place>>> response) {
+                data.next(response.body().getDsPlace());
             }
 
             @Override

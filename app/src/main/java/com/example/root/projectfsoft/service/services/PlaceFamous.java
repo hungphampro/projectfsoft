@@ -16,5 +16,7 @@ import retrofit2.http.Query;
 public interface PlaceFamous {
     @GET("textsearch/json")
     Call<APIResponse<ArrayList<Place>>> getPlaceFamous(@Query("query") String text,@Query("key") String apikey);
+    @GET("radarsearch/json")
+    Call<APIResponse<ArrayList<Place>>> getPlaceNeccessary(@Query("location") String text,@Query("radius") int radius,@Query("type") String type,@Query("key") String apikey);
 
 }

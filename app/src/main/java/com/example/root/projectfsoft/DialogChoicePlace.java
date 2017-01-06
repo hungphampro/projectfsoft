@@ -1,5 +1,6 @@
 package com.example.root.projectfsoft;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,6 +9,7 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.Button;
 
 import com.example.root.projectfsoft.adapter.DivideRecycleview;
 import com.example.root.projectfsoft.adapter.ItemListAapter;
@@ -22,46 +24,61 @@ import java.util.ArrayList;
  * Created by root on 27/12/2016.
  */
 
-public class DialogChoicePlace extends AppCompatActivity implements ItemListChoiceAdapter.click{
+public class DialogChoicePlace extends Activity {
     RecyclerView rcGoiY,rcChoice;
-    ArrayList<Place> mPlaces;
-    ItemListAapter itemListAapter;
+    Button trave;
+    ArrayList<Place> mPlaces,mPlaceChoice;
+    ItemListChoiceAdapter itemListAapter;
+    ItemListChoiceAdapter itemListAapterChoice;
     PlaceFamousImpl placeFamous;
     String chuoitim;
+    Intent i;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dialog_choice_place);
-        Intent i=getIntent();
+        trave= (Button) findViewById(R.id.trave);
+        i=getIntent();
         chuoitim=i.getStringExtra("chuoitim");
         rcGoiY= (RecyclerView) findViewById(R.id.dsgoiy);
         LinearLayoutManager ln=new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
         rcGoiY.setLayoutManager(ln);
         mPlaces=new ArrayList<>();
+        mPlaceChoice=new ArrayList<>();
         placeFamous=new PlaceFamousImpl(this);
-
         placeFamous.getPlaceFamous(chuoitim,new CallBack<ArrayList<Place>>() {
             @Override
             public void next(ArrayList<Place> data) {
                 mPlaces=data;
-                itemListAapter=new ItemListAapter(mPlaces,getApplication());
+                itemListAapter=new ItemListChoiceAdapter(mPlaces,mPlaceChoice,DialogChoicePlace.this,1);
                 rcGoiY.setAdapter(itemListAapter);
             }
         });
         rcGoiY.setItemAnimator(new DefaultItemAnimator());
-        rcGoiY.addItemDecoration(new DivideRecycleview(this));
+        rcChoice=(RecyclerView) findViewById(R.id.dsdiadiemchon);
+        LinearLayoutManager ln1=new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
+        rcChoice.setLayoutManager(ln1);
+        itemListAapterChoice=new ItemListChoiceAdapter(mPlaces,mPlaceChoice,DialogChoicePlace.this,2);
+        rcChoice.setAdapter(itemListAapterChoice);
+        rcChoice.setItemAnimator(new DefaultItemAnimator());
+        trave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ArrayList<String> mangs=new ArrayList<>();
+                for(int i=0;i<mPlaceChoice.size();i++){
+                    mangs.add(mPlaceChoice.get(i).getId());
+                }
+                i.putStringArrayListExtra("mang",mangs);
+                setResult(RESULT_OK,i);
+                finish();
+            }
+        });
 
     }
-
-    @Override
-    public void onClick(View view, int position) {
-        switch (view.getId()){
-
-        }
+    public ItemListChoiceAdapter getItemListAapter(){
+        return itemListAapter;
     }
-
-    @Override
-    public void onLongClick(View view,int position) {
-
+    public ItemListChoiceAdapter getItemListAapterChoice(){
+        return itemListAapterChoice;
     }
 }

@@ -32,6 +32,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivityDetailImage"></activity>
+        <activity android:name=".DialogChoicePlace"></activity>
     </application>
 
 </manifest>

@@ -24,9 +24,7 @@
         android:scrollbars="none"
         android:theme="@style/NavigationTheme"
         app:itemBackground="@color/colorinputlayout"
-        app:itemIconTint="@color/colornavmenu"
         app:itemTextAppearance="@style/yourstyle"
-        app:itemTextColor="@color/text_color_item_nav"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 

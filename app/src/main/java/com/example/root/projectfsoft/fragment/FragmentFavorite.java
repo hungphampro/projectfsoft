@@ -44,7 +44,7 @@ public class FragmentFavorite extends Fragment{
         ImageView mImg= (ImageView) toolbar.findViewById(R.id.style);
         mImg.setVisibility(View.INVISIBLE);
         TextView title= (TextView) toolbar.findViewById(R.id.title);
-        title.setText("Favorite Place");
+        title.setText("Địa điểm yêu thích");
         rc= (RecyclerView) view.findViewById(R.id.recyclerView);
           LinearLayoutManager ln=new LinearLayoutManager(mInflater.getContext(),LinearLayoutManager.VERTICAL,false);
          rc.setLayoutManager(ln);
@@ -53,20 +53,6 @@ public class FragmentFavorite extends Fragment{
          itemListFavoritePlace=new ItemListFavoritePlace(inflater.getContext(),mPlaces);
          rc.setAdapter(itemListFavoritePlace);
          rc.setItemAnimator(new DefaultItemAnimator());
-        /* rc.addOnItemTouchListener(new RecycleViewClicker(mInflater.getContext(), rc, new RecycleViewClicker.click() {
-             @Override
-             public void onClick(View view, int position) {
-                 Intent i=new Intent(mInflater.getContext(), ActivityDetailImage.class);
-                 i.putExtra("from",1);
-                 i.putExtra("id",mPlaces.get(position).getId());
-                 startActivity(i);
-             }
-
-             @Override
-             public void onLongClick(View view, int position) {
-
-             }
-         }));*/
          return view;
     }
 }

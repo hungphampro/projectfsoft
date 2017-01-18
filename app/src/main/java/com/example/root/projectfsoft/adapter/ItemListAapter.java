@@ -68,24 +68,11 @@ public class ItemListAapter extends RecyclerView.Adapter<ItemListAapter.ViewHold
     @Override
     public void onBindViewHolder(final ViewHolder holder, final int position) {
           final Place place=mPlaces.get(position);
-          System.out.println("me cha may:"+place.getLocation().getLocation());
           Picasso.with(mContext).load(place.getUrlHinh()).into(holder.avatarPlace);
           holder.titlePlace.setText(place.getName());
           holder.Address.setText(place.getAddress());
 
           holder.rating.setText("Rating:"+place.getRating());
-         /* final ArrayList<Reviews> dsReview=new ArrayList<>();
-          ArrayList<ShowImage> dsImage=new ArrayList<>();*/
-          holder.card.setOnClickListener(new View.OnClickListener() {
-              @Override
-              public void onClick(View view) {
-                  Intent i=new Intent(mContext, ActivityDetailImage.class);
-                  i.putExtra("from",2);
-                  i.putExtra("id",mPlaces.get(position).getId());
-                  mContext.startActivity(i);
-              }
-          });
-
           if(realm.where(PlaceFavorite.class).equalTo("id",place.getId()).findFirst()!=null) {
               holder.favorite.setImageResource(R.drawable.starfavorite);
               holder.favorite.setOnClickListener(new View.OnClickListener() {
@@ -173,7 +160,7 @@ public class ItemListAapter extends RecyclerView.Adapter<ItemListAapter.ViewHold
         return mPlaces.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder{
+    public  class ViewHolder extends RecyclerView.ViewHolder{
         private ImageView avatarPlace;
         CardView card;
         TextView titlePlace,Address,rating;
@@ -188,6 +175,15 @@ public class ItemListAapter extends RecyclerView.Adapter<ItemListAapter.ViewHold
             rating= (TextView) itemView.findViewById(R.id.rating);
             favorite= (ImageButton) itemView.findViewById(R.id.favorite);
             face= (ImageView) itemView.findViewById(R.id.face);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent i=new Intent(mContext, ActivityDetailImage.class);
+                    i.putExtra("from",2);
+                    i.putExtra("id",mPlaces.get(getAdapterPosition()).getId());
+                    mContext.startActivity(i);
+                }
+            });
         }
     }
     public byte[] ImageView_To_Byte(ImageView imgv){

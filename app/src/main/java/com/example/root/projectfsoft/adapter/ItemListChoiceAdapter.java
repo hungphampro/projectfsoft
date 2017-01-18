@@ -56,17 +56,6 @@ public class ItemListChoiceAdapter extends RecyclerView.Adapter<ItemListChoiceAd
         }else p=mPlacesChoice.get(position);
         holder.title.setText(p.getName());
         holder.rating.setText("Rating:"+p.getRating());
-        holder.card.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i=new Intent(mContext, ActivityDetailImage.class);
-                i.putExtra("from",2);
-                i.putExtra("id",p.getId());
-                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                mContext.startActivity(i);
-
-            }
-        });
         Picasso.with(mContext).load(p.getUrlHinh()).into(holder.avatarPlace);
             if(t==1) {
                 holder.action.setText("Choice");
@@ -100,7 +89,7 @@ public class ItemListChoiceAdapter extends RecyclerView.Adapter<ItemListChoiceAd
         else return mPlacesChoice.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder{
+    public  class ViewHolder extends RecyclerView.ViewHolder{
         private ImageView avatarPlace;
         private TextView title;
         private TextView rating;
@@ -113,6 +102,17 @@ public class ItemListChoiceAdapter extends RecyclerView.Adapter<ItemListChoiceAd
             rating=(TextView)itemView.findViewById(R.id.rating);
             action=(TextView)itemView.findViewById(R.id.chon);
             card= (CardView) itemView.findViewById(R.id.card);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent i=new Intent(mContext, ActivityDetailImage.class);
+                    i.putExtra("from",2);
+                    if(t==1) i.putExtra("id",mPlaces.get(getAdapterPosition()).getId());
+                    else i.putExtra("id",mPlacesChoice.get(getAdapterPosition()).getId());
+                    i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    mContext.startActivity(i);
+                }
+            });
         }
     }
 }

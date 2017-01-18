@@ -1,5 +1,6 @@
 package com.example.root.projectfsoft.service.response;
 
+import com.example.root.projectfsoft.model.Setting;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.gson.annotations.SerializedName;
 
@@ -7,8 +8,8 @@ import com.google.gson.annotations.SerializedName;
  * Created by root on 21/12/2016.
  */
 
-public class Place {
-     @SerializedName("formatted_address")
+public class Place implements Comparable<Place>{
+    @SerializedName("formatted_address")
      String address;
 
      @SerializedName("icon")
@@ -18,7 +19,7 @@ public class Place {
      String name;
 
      @SerializedName("rating")
-     float rating;
+     double rating;
 
      @SerializedName("geometry")
      Location location;
@@ -50,11 +51,11 @@ public class Place {
         this.name = name;
     }
 
-    public float getRating() {
+    public double getRating() {
         return rating;
     }
 
-    public void setRating(float rating) {
+    public void setRating(double rating) {
         this.rating = rating;
     }
 
@@ -72,5 +73,10 @@ public class Place {
 
     public void setId(String id) {
         this.id = id;
+    }
+    @Override
+    public int compareTo(Place place) {
+        if(this.getRating()<place.getRating()) return -1;
+        else return 1;
     }
 }

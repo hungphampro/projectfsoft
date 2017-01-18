@@ -15,7 +15,7 @@ public class PlaceFavorite extends RealmObject{
     private String address;
     private String name;
     private byte[] imgPath;
-    private float rating;
+    private  double  rating;
 
     public PlaceFavorite(){
 
@@ -53,15 +53,15 @@ public class PlaceFavorite extends RealmObject{
         this.imgPath = imgPath;
     }
 
-    public float getRating() {
+    public  double getRating() {
         return rating;
     }
 
-    public void setRating(float rating) {
+    public void setRating(double rating) {
         this.rating = rating;
     }
 
-    public PlaceFavorite(String id, String address, String name, byte[] imgPath, float rating) {
+    public PlaceFavorite(String id, String address, String name, byte[] imgPath,  double rating) {
         this.id=id;
         this.address = address;
         this.name = name;

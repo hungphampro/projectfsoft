@@ -32,7 +32,7 @@ public class ImagePlaceImpl {
         chido.enqueue(new Callback<APIResponseDetail<PlaceDeatail>>() {
             @Override
             public void onResponse(Call<APIResponseDetail<PlaceDeatail>> call, Response<APIResponseDetail<PlaceDeatail>> response) {
-                System.out.println("toi muon biet:"+response.body().getStatus());
+
                 ArrayList<ShowImage> nua=response.body().getDsPlace().getImage();
                 trave.next(nua);
             }

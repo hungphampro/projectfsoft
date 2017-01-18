@@ -31,6 +31,8 @@ import com.example.root.projectfsoft.service.util.CallBack;
 import com.example.root.projectfsoft.service.util.ToolsActivity;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 import io.realm.Realm;
 
@@ -43,9 +45,9 @@ public class ListFamousPlaceDaNang extends Fragment {
     ItemListAapter itemListAapter;
     PlaceFamousImpl placeFamous;
     LayoutInflater mInflater;
-    String text="địa+điểm+du+lịch+nổi+tiếng+đà+nẵng";
-    double rate;
-    boolean sort;
+    String text="Địa điểm du lịch nổi tiếng";
+    double rate=-1;
+    boolean sort=false;
     boolean flag=true;
     Realm realm;
     ImageView mImg;
@@ -60,7 +62,7 @@ public class ListFamousPlaceDaNang extends Fragment {
         mImg= (ImageView) toolbar.findViewById(R.id.style);
         mImg.setVisibility(View.VISIBLE);
         TextView title= (TextView) toolbar.findViewById(R.id.title);
-        title.setText("Famous Place");
+        title.setText("Địa điểm nổi tiếng");
         rc= (RecyclerView) view.findViewById(R.id.recyclerView);
         LinearLayoutManager ln=new LinearLayoutManager(mInflater.getContext(),LinearLayoutManager.VERTICAL,false);
         rc.setLayoutManager(ln);
@@ -71,6 +73,8 @@ public class ListFamousPlaceDaNang extends Fragment {
            rate=set.getRating();
            sort=set.isSortByRating();
         }
+        text+="Đà Nẵng";
+        text.replace(" ","+");
         if(!ToolsActivity.isNetworkOnline(getActivity())){
             Toast.makeText(getActivity(),"Vui Lòng Kiểm tra Network",Toast.LENGTH_SHORT).show();
         }else {
@@ -81,7 +85,13 @@ public class ListFamousPlaceDaNang extends Fragment {
                 @Override
                 public void next(ArrayList<Place> data) {
                     toolsActivity.dismissLoading(getActivity());
-                    mPlaces = data;
+
+                    if(rate>-1){
+                        Collections.sort(data);
+                        mPlaces=search(data,rate);
+                    }else{
+                        mPlaces=data;
+                    }
                     itemListAapter = new ItemListAapter(mPlaces, inflater.getContext());
                     rc.setAdapter(itemListAapter);
                 }
@@ -113,5 +123,19 @@ public class ListFamousPlaceDaNang extends Fragment {
             rc.setAdapter(itemGrilAapter);
             flag=false;
         }
+    }
+    public ArrayList<Place> search(ArrayList<Place> mang,double rate ){
+
+        int i=0;
+        for(;i<mang.size();i++){
+            if(mang.get(i).getRating()>=rate) break;
+        }
+
+        ArrayList<Place> moi= new ArrayList<>();
+        for(int t=i;t<mang.size();t++){
+            moi.add(mang.get(t));
+        }
+
+        return moi;
     }
 }

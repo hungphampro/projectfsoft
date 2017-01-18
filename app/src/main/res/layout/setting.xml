@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
     <TextView
         android:layout_width="match_parent"
-        android:text="L"
+        android:text="Lọc"
         android:textSize="20sp"
         android:textColor="#d6d6d6"
         android:layout_height="wrap_content" />
@@ -67,7 +67,7 @@
     <LinearLayout
         android:layout_marginTop="10dp"
         android:id="@+id/sortBy"
-        android:orientatiếpon="vertical"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <CheckBox
@@ -78,7 +78,7 @@
             android:textSize="16sp"
             android:textColor="#747474"
             android:layout_height="wrap_content"
-            android:text="Sort By Rating"
+            android:text="Sắp xếp theo rating"
             />
     </LinearLayout>
 

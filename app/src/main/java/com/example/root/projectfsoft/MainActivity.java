@@ -1,5 +1,6 @@
 package com.example.root.projectfsoft;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.design.widget.NavigationView;
@@ -111,22 +112,13 @@ public class MainActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        Fragment fragment=null;
         switch (item.getItemId()){
             case R.id.nav_place:
-                fragment=new ListFamousPlaceDaNang();
+                Intent k=new Intent(getApplicationContext(),DuongDiActivity.class);
+                startActivity(k);
                 break;
-            case R.id.nav_favorite: fragment=new FragmentFavorite();
-                break;
-            case R.id.nav_map: fragment=new MapPlace();
-                               break;
-            case R.id.nav_about:fragment=new AboutFragment();
-                       break;
-            case R.id.nav_setting: fragment=new SettingFragment();
-                break;
-            default: fragment=new ListFamousPlaceDaNang();
         }
-        fragmentManager.beginTransaction().replace(R.id.framelayout,fragment).commit();
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

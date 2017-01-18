@@ -53,19 +53,11 @@ public class ItemListFavoritePlace extends RecyclerView.Adapter<ItemListFavorite
          holder.rating.setText("Rating:"+String.valueOf(place.getRating()));
          holder.Address.setText(place.getAddress());
          holder.favorite.setImageResource(R.drawable.starfavorite);
-         holder.card.setOnClickListener(new View.OnClickListener() {
-             @Override
-             public void onClick(View view) {
-                 Intent i=new Intent(mContext, ActivityDetailImage.class);
-                 i.putExtra("from",1);
-                 i.putExtra("id",mPlaces.get(position).getId());
-                 mContext.startActivity(i);
-             }
-         });
          holder.favorite.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
                  mPlaces.remove(position);
+                 notifyDataSetChanged();
                  RealmResults<PlaceFavorite> results = realm.where(PlaceFavorite.class).equalTo("id", place.getId()).findAll();
                  RealmResults<ReviewPlace> resultsReview = realm.where(ReviewPlace.class).equalTo("id", place.getId()).findAll();
                  RealmResults<com.example.root.projectfsoft.model.ShowImage> resultsImage = realm.where(com.example.root.projectfsoft.model.ShowImage.class).equalTo("idPlace", place.getId()).findAll();
@@ -83,7 +75,7 @@ public class ItemListFavoritePlace extends RecyclerView.Adapter<ItemListFavorite
         return mPlaces.size();
     }
 
-    public static class viewHolder extends RecyclerView.ViewHolder{
+    public  class viewHolder extends RecyclerView.ViewHolder{
         private ImageView avatarPlace;
         CardView card;
         TextView titlePlace,Address,rating;
@@ -96,6 +88,15 @@ public class ItemListFavoritePlace extends RecyclerView.Adapter<ItemListFavorite
             Address= (TextView) itemView.findViewById(R.id.address);
             rating= (TextView) itemView.findViewById(R.id.rating);
             favorite= (ImageButton) itemView.findViewById(R.id.favorite);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent i=new Intent(mContext, ActivityDetailImage.class);
+                    i.putExtra("from",1);
+                    i.putExtra("id",mPlaces.get(getAdapterPosition()).getId());
+                    mContext.startActivity(i);
+                }
+            });
         }
     }
 }

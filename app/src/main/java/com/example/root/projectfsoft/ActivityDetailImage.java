@@ -67,7 +67,6 @@ public class ActivityDetailImage extends AppCompatActivity {
         Intent i=getIntent();
         t=i.getIntExtra("from",0);
         id=i.getStringExtra("id");
-        System.out.println("Gia tri cua id:"+id);
         if(t==1)
         {
             ArrayList<ShowImage> moi=new ArrayList<>(realm.where(ShowImage.class).equalTo("idPlace",id).findAll());

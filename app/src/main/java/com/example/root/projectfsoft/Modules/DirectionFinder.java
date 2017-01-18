@@ -28,7 +28,7 @@ public class DirectionFinder {
     private DirectionFinderListener listener;
     private String origin;
     private String destination;
-
+    private static List<Route> moi=new ArrayList<>();
     public DirectionFinder(DirectionFinderListener listener, String origin, String destination) {
         this.listener = listener;
         this.origin = origin;
@@ -86,7 +86,6 @@ public class DirectionFinder {
     private void parseJSon(String data) throws JSONException {
         if (data == null)
             return;
-
         List<Route> routes = new ArrayList<Route>();
         JSONObject jsonData = new JSONObject(data);
         JSONArray jsonRoutes = jsonData.getJSONArray("routes");
@@ -107,16 +106,18 @@ public class DirectionFinder {
             route.endAddress = jsonLeg.getString("end_address");
             route.startAddress = jsonLeg.getString("start_address");
             route.startLocation = new LatLng(jsonStartLocation.getDouble("lat"), jsonStartLocation.getDouble("lng"));
+
             route.endLocation = new LatLng(jsonEndLocation.getDouble("lat"), jsonEndLocation.getDouble("lng"));
             route.points = decodePolyLine(overview_polylineJson.getString("points"));
-
+            route.diem=overview_polylineJson.getString("points");
             routes.add(route);
+            moi.add(route);
         }
 
         listener.onDirectionFinderSuccess(routes);
     }
 
-    private List<LatLng> decodePolyLine(final String poly) {
+    public static List<LatLng> decodePolyLine(final String poly) {
         int len = poly.length();
         int index = 0;
         List<LatLng> decoded = new ArrayList<LatLng>();
@@ -152,4 +153,9 @@ public class DirectionFinder {
 
         return decoded;
     }
+    public static List<Route> getRoutes(){
+        return moi;
+    }
+
+
 }

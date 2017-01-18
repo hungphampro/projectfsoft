@@ -4,23 +4,23 @@
         id="@+id/tab_place"
         icon="@drawable/place"
         textColor="#FFFFFF"
-        title="Place Famous"
+        title="Địa điểm"
         />
     <tab
         id="@+id/tab_favorite"
         icon="@drawable/heart"
         textColor="#FFFFFF"
-        title="Favorite"
+        title="Yêu thích"
         />
     <tab
         id="@+id/tab_map"
         icon="@drawable/map"
-        title="Map"
+        title="Bản đồ"
         />
 
     <tab id="@+id/tab_setting"
          icon="@drawable/settings"
-         title="Settings">
+         title="Cài đặt">
 
     </tab>
 
@@ -28,7 +28,7 @@
         id="@+id/tab_about"
         icon="@drawable/info"
         textColor="#FFFFFF"
-        title="About"
+        title="Thông Tin"
         />
 
     <!-- You can use @color resources too! -->

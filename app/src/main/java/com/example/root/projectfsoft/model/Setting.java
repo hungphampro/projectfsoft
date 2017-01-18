@@ -8,7 +8,7 @@ import io.realm.RealmObject;
  * Created by root on 06/01/2017.
  */
 
-public class Setting extends RealmObject implements Comparable<Setting> {
+public class Setting extends RealmObject {
 
     private String categoryName;
 
@@ -50,9 +50,5 @@ public class Setting extends RealmObject implements Comparable<Setting> {
     }
 
 
-    @Override
-    public int compareTo(Setting setting) {
-        if(this.getRating()<setting.getRating()) return -1;
-        else return 1;
-    }
+
 }

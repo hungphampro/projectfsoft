@@ -26,7 +26,7 @@ public class AboutFragment extends Fragment {
         mImg.setVisibility(View.INVISIBLE);
         TextView title= (TextView) toolbar.findViewById(R.id.title);
 
-        title.setText("About");
+        title.setText("Thông tin");
        return v;
     }
 }

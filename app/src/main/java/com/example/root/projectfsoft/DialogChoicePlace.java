@@ -68,8 +68,9 @@ public class DialogChoicePlace extends Activity {
                 for(int i=0;i<mPlaceChoice.size();i++){
                     mangs.add(mPlaceChoice.get(i).getId());
                 }
-                i.putStringArrayListExtra("mang",mangs);
-                setResult(RESULT_OK,i);
+                Intent k=new Intent(getApplicationContext(),DuongDiActivity.class);
+                k.putStringArrayListExtra("mang",mangs);
+                startActivity(k);
                 finish();
             }
         });
